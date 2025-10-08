@@ -15,9 +15,7 @@ const weathertool = {
   parameters: z.object({}),
 };
 
-const response = await runAgent({
+await runAgent({
   userMessage,
   tools: [weathertool],
 });
-
-console.log(response);
