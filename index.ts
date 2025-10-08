@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 import { runAgent } from "./src/agent";
-import z from "zod";
+import { tools } from "./src/tools";
 
 const userMessage = process.argv[2];
 
@@ -10,12 +10,7 @@ if (!userMessage) {
   process.exit(1);
 }
 
-const weathertool = {
-  name: "get_weather",
-  parameters: z.object({}),
-};
-
 await runAgent({
   userMessage,
-  tools: [weathertool],
+  tools,
 });
