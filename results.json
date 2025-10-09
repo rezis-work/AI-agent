@@ -1,0 +1,267 @@
+{
+  "experiments": [
+    {
+      "name": "reddit",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "find me something intresting on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Jk9mko5ptHeRsVOkmECZ1mkj",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-09T10:04:30.326Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-10-09T10:04:30.326Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "find me something intresting on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_od17ivirCXMMcONWYYz0qIYa",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-09T10:49:08.111Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-10-09T10:49:08.111Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "find me something intresting on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_7TazLecuxUzy4PhGf3zfEWdj",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-09T10:49:23.340Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-10-09T10:49:23.340Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "find me something intresting on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_v9x5rq482iFP6Mt2L5ZPxMYe",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-09T10:49:36.535Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-10-09T10:49:36.535Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "find me something intresting on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_0mNljO2BiOri0BzfnIQr9Ra1",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-09T10:49:44.219Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-10-09T10:49:44.219Z"
+        },
+        {
+          "runs": [
+            {
+              "input": "find me something intresting on reddit",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_EwdQIlNbMmJBSIILJbvwxhg2",
+                    "type": "function",
+                    "function": {
+                      "name": "reddit",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "reddit"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-09T10:49:52.511Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-10-09T10:49:52.511Z"
+        }
+      ]
+    }
+  ]
+}
