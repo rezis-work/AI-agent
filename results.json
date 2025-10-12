@@ -12,7 +12,7 @@
                 "content": null,
                 "tool_calls": [
                   {
-                    "id": "call_Jk9mko5ptHeRsVOkmECZ1mkj",
+                    "id": "call_8dsT76JRZulDsjnacyE9ldum",
                     "type": "function",
                     "function": {
                       "name": "reddit",
@@ -40,14 +40,104 @@
                   "score": 1
                 }
               ],
-              "createdAt": "2025-10-09T10:04:30.326Z"
+              "createdAt": "2025-10-12T18:25:59.758Z"
             }
           ],
           "score": 1,
-          "createdAt": "2025-10-09T10:04:30.326Z"
-        },
+          "createdAt": "2025-10-12T18:25:59.758Z"
+        }
+      ]
+    },
+    {
+      "name": "dadJoke",
+      "sets": [
         {
           "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Ur7BKW3AFDYFovIr2W0ysoci",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-12T18:26:10.769Z"
+            }
+          ],
+          "score": 1,
+          "createdAt": "2025-10-12T18:26:10.769Z"
+        }
+      ]
+    },
+    {
+      "name": "allTools",
+      "sets": [
+        {
+          "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_6O7fN1tlr20hMQM4RhrdrxFd",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-12T18:44:32.395Z"
+            },
             {
               "input": "find me something intresting on reddit",
               "output": {
@@ -55,7 +145,7 @@
                 "content": null,
                 "tool_calls": [
                   {
-                    "id": "call_od17ivirCXMMcONWYYz0qIYa",
+                    "id": "call_0EfNiSo48oENSw7QqbOjnZP8",
                     "type": "function",
                     "function": {
                       "name": "reddit",
@@ -83,14 +173,88 @@
                   "score": 1
                 }
               ],
-              "createdAt": "2025-10-09T10:49:08.111Z"
+              "createdAt": "2025-10-12T18:44:32.395Z"
+            },
+            {
+              "input": "generate an image of a sunset",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_Vbs496PzJxHH2lU8h3rX9EvZ",
+                    "type": "function",
+                    "function": {
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A whimsical sunset over a cartoonish landscape, with vibrant colors like pink, orange, and purple. Include playful elements like dancing trees, a smiling sun wearing sunglasses, and fluffy clouds shaped like animals.\"}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "generate_image"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-12T18:44:32.395Z"
             }
           ],
           "score": 1,
-          "createdAt": "2025-10-09T10:49:08.111Z"
+          "createdAt": "2025-10-12T18:44:32.395Z"
         },
         {
           "runs": [
+            {
+              "input": "tell me a funny dad joke",
+              "output": {
+                "role": "assistant",
+                "content": null,
+                "tool_calls": [
+                  {
+                    "id": "call_oY5Ghgge6qURR2qwSFsbvQbx",
+                    "type": "function",
+                    "function": {
+                      "name": "dad_joke",
+                      "arguments": "{}"
+                    }
+                  }
+                ],
+                "refusal": null,
+                "annotations": []
+              },
+              "expected": {
+                "role": "assistant",
+                "tool_calls": [
+                  {
+                    "function": {
+                      "type": "function",
+                      "name": "dad_joke"
+                    }
+                  }
+                ]
+              },
+              "scores": [
+                {
+                  "name": "ToolCallMatch",
+                  "score": 1
+                }
+              ],
+              "createdAt": "2025-10-12T18:44:53.344Z"
+            },
             {
               "input": "find me something intresting on reddit",
               "output": {
@@ -98,7 +262,7 @@
                 "content": null,
                 "tool_calls": [
                   {
-                    "id": "call_7TazLecuxUzy4PhGf3zfEWdj",
+                    "id": "call_4SX5kOT9K2SRncBi93k9Br2i",
                     "type": "function",
                     "function": {
                       "name": "reddit",
@@ -126,26 +290,20 @@
                   "score": 1
                 }
               ],
-              "createdAt": "2025-10-09T10:49:23.340Z"
-            }
-          ],
-          "score": 1,
-          "createdAt": "2025-10-09T10:49:23.340Z"
-        },
-        {
-          "runs": [
+              "createdAt": "2025-10-12T18:44:53.344Z"
+            },
             {
-              "input": "find me something intresting on reddit",
+              "input": "generate an image of a sunset",
               "output": {
                 "role": "assistant",
                 "content": null,
                 "tool_calls": [
                   {
-                    "id": "call_v9x5rq482iFP6Mt2L5ZPxMYe",
+                    "id": "call_R96Jy8JXmQHW3MHmwDYQFqvD",
                     "type": "function",
                     "function": {
-                      "name": "reddit",
-                      "arguments": "{}"
+                      "name": "generate_image",
+                      "arguments": "{\"prompt\":\"A whimsical sunset over a candyland landscape, with cotton candy clouds and a chocolate river reflecting the vibrant orange and pink hues of the sky. Add some playful gummy bears watching the sunset from a marshmallow hill.\"}"
                     }
                   }
                 ],
@@ -158,7 +316,7 @@
                   {
                     "function": {
                       "type": "function",
-                      "name": "reddit"
+                      "name": "generate_image"
                     }
                   }
                 ]
@@ -169,97 +327,11 @@
                   "score": 1
                 }
               ],
-              "createdAt": "2025-10-09T10:49:36.535Z"
+              "createdAt": "2025-10-12T18:44:53.344Z"
             }
           ],
           "score": 1,
-          "createdAt": "2025-10-09T10:49:36.535Z"
-        },
-        {
-          "runs": [
-            {
-              "input": "find me something intresting on reddit",
-              "output": {
-                "role": "assistant",
-                "content": null,
-                "tool_calls": [
-                  {
-                    "id": "call_0mNljO2BiOri0BzfnIQr9Ra1",
-                    "type": "function",
-                    "function": {
-                      "name": "reddit",
-                      "arguments": "{}"
-                    }
-                  }
-                ],
-                "refusal": null,
-                "annotations": []
-              },
-              "expected": {
-                "role": "assistant",
-                "tool_calls": [
-                  {
-                    "function": {
-                      "type": "function",
-                      "name": "reddit"
-                    }
-                  }
-                ]
-              },
-              "scores": [
-                {
-                  "name": "ToolCallMatch",
-                  "score": 1
-                }
-              ],
-              "createdAt": "2025-10-09T10:49:44.219Z"
-            }
-          ],
-          "score": 1,
-          "createdAt": "2025-10-09T10:49:44.219Z"
-        },
-        {
-          "runs": [
-            {
-              "input": "find me something intresting on reddit",
-              "output": {
-                "role": "assistant",
-                "content": null,
-                "tool_calls": [
-                  {
-                    "id": "call_EwdQIlNbMmJBSIILJbvwxhg2",
-                    "type": "function",
-                    "function": {
-                      "name": "reddit",
-                      "arguments": "{}"
-                    }
-                  }
-                ],
-                "refusal": null,
-                "annotations": []
-              },
-              "expected": {
-                "role": "assistant",
-                "tool_calls": [
-                  {
-                    "function": {
-                      "type": "function",
-                      "name": "reddit"
-                    }
-                  }
-                ]
-              },
-              "scores": [
-                {
-                  "name": "ToolCallMatch",
-                  "score": 1
-                }
-              ],
-              "createdAt": "2025-10-09T10:49:52.511Z"
-            }
-          ],
-          "score": 1,
-          "createdAt": "2025-10-09T10:49:52.511Z"
+          "createdAt": "2025-10-12T18:44:53.344Z"
         }
       ]
     }
