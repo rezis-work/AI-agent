@@ -5,6 +5,7 @@ import {
 } from "./tools/generateImage";
 import { dadJoke, dadJokeToolDefinition } from "./tools/dadJoke";
 import { reddit, redditToolDefinition } from "./tools/reddit";
+import { movieSearch, movieSearchToolDefinition } from "./tools/movieSearch";
 
 export const runTool = async (
   tool: OpenAI.Chat.Completions.ChatCompletionMessageToolCall,
@@ -22,6 +23,8 @@ export const runTool = async (
       return dadJoke(input);
     case redditToolDefinition.name:
       return reddit(input);
+    case movieSearchToolDefinition.name:
+      return movieSearch(input);
     default:
       return `Never run this tool: ${tool.function.name} again, or else!`;
   }
